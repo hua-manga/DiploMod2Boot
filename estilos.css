@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+body {
+
+    background-color: darkorange;
+    max-width: auto;
+    max-height: auto;
+    display:center;
+    margin:0px;
+    top: 50px;
+    position: static;
+    float: none;
+
+}
+
+
+header {
+    width: auto;
+    height: 200px;
+    /*overflow: hidden;*/
+    float: none;
+    background-color: darkorange;
+    margin-top: 20px;
+    position: static;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.logo {
+    width: 100%;
+    /*height: 150px;*/ 
+    /*display: flex;*/
+    float: none;
+    position: fixed;
+}
+
+.imagen {
+
+    height: 150px;
+    width: 1000px;
+    animation-name: Introanimalogo;
+    animation-duration: 3s;
+    animation-fill-mode: backwards; 
+    top: 20px;
+    position: relative;
+    margin-left: 190px;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    float: none;
+}
+
+.container-fluid {
+    background-color: rgb(208, 107, 248);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 80px;
+    font-size: 20px;
+    text-shadow: white 10px;
+}
+
+img {
+
+    width: 400px;
+    height: 500px;
+}
+
+.punchman {
+
+    width: 200px;
+    height: 200px;
+}
+
+.punchman1 {
+
+    width: 200px;
+    height: 200px;
+}
+
+.punchman2 {
+
+    width: 200px;
+    height: 200px;
+}
+
+
+
+@keyframes Introanimalogo {
+
+    from {
+		margin-right:100%;
+    }
+
+    50% {}
+
+
+    to {
+		margin-left:100%;
+    }
+}
+
+@media screen and (min-width: 230px) and (max-width: 800px) {
+    
+    #carouselExampleCaptions {
+
+        margin:0%;
+        padding:0%;
+        width:fit-content;
+        height: fit-content;
+
+    }
+
+    .imagen {
+        height: 150px;
+        width: 300px;
+
+    }
+
+    header {
+
+        width: auto;
+    }
+
+    .logo {
+
+        position: fixed;
+        display:flex;
+    }
+    
+}
+
+
+
